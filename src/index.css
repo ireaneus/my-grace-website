@@ -1,13 +1,44 @@
-body {
+html, body {
+  font-family: 'PT Sans', sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-size: 0.9rem;
+  background-color: oldlace;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'EB Garamond', serif;
+  color: #025e85;
+  text-align: center;
+}
+
+.white {
+  color: whitesmoke;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+p.scripture {
+  font-family: 'Courgette', cursive;
+}
+
+a, button {
+  font-size: 0.85rem;
+}
+
+img {
+  float: left;
+}
+
+img.rcorners {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.w3-sidebar {
+  z-index: 3;
+  top: 34px;
+  bottom: 0;
+  height: inherit;
 }
