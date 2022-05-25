@@ -6,8 +6,8 @@ import Sidebar from '../components/Sidebar';
 const Home = () => {
   return (
     <>
-    <GraceAppBar />
-    <Sidebar />
+      <GraceAppBar />
+      <Sidebar />
     </>
   )
 }

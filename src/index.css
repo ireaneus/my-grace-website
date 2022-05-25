@@ -37,8 +37,9 @@ img.rcorners {
 }
 
 .w3-sidebar {
-  z-index: 3;
-  top: 34px;
+  z-index: 1;
+  background-color: #F2EDD7;
+  top: 45px;
   bottom: 0;
   height: inherit;
 }
