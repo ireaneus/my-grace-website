@@ -11,6 +11,10 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
+.paddingLeft {
+  padding-left: 15px;
+}
+
 .white {
   color: whitesmoke;
 }
@@ -37,7 +41,7 @@ img.rcorners {
 }
 
 .w3-sidebar {
-  z-index: 1;
+  z-index: 3;
   background-color: #F2EDD7;
   top: 45px;
   bottom: 0;
