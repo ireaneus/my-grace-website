@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import List from './List';
 
-const Menu = () => {
+export default function Menu() {
     const [anchorEl, setAnchorEl] = useState(null);
     const open = Boolean(anchorEl);
     const handleClick = (event) => {
@@ -34,6 +34,3 @@ const Menu = () => {
     </>
   )
 }
-
-export default Menu
-

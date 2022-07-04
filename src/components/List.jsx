@@ -1,6 +1,6 @@
 import React from 'react'
 
-const List = () => {
+export default function List() {
   return (
     <div >
     <h4 className="w3-card-item">Sermon List</h4>
@@ -34,4 +34,3 @@ const List = () => {
   )
 }
 
-export default List

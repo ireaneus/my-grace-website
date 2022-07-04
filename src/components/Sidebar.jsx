@@ -5,7 +5,7 @@ function w3_close() {
   document.getElementById("mySidebar").style.display = "none";
 };
 
-const Sidebar = () => {
+export default function Sidebar() {
 
   return (
     <div id='mySidebar' className="w3-sidebar w3-hide-medium w3-hide-small">
@@ -14,5 +14,3 @@ const Sidebar = () => {
     </div>
   )
 }
-
-export default Sidebar
